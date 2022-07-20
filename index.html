@@ -16,8 +16,102 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section id="title" class="r-vstack">
+					<h2>GraphQL & Apollo</h2>
+					<h4>An intro for Angular devs</h4>
+					<div class="logos">
+						<div>
+							<img src="./images/apollo_logo.png">
+						</div>
+						<div>
+							<img src="./images/graphql_logo.png">
+						</div>
+						<div>
+							<img src="./images/angular_logo.png">
+						</div>
+					</div>
+					<span class="signature">Nicole Greene | Developer at Bitovi</span>
+				</section>
+				<section id="graphql">
+					<section id="graphql1" class="r-vstack">
+						<h4>What is GraphQL?</h4>
+						<ul>
+							<li>Developed internally by Facebook</li>
+							<li>“A query language for your API”</li>
+							<li>Unlike a REST API where you hit a separate endpoint for each query, it only has 1 endpoint</li>
+							<li>Allows you to instead describe your data using specific parameters, and thus get back predictable results</li>
+							<li>Relational queries with less API calls</li>
+						</ul>
+					</section>
+					<section id="graphql2" class="r-vstack">
+						<h4>Some GraphQL advantages:</h4>
+						<ul>
+							<li>Reduces number of api calls on the client side (single endpoint with multiple handler functions)</li>
+							<li>Strongly typed</li>
+							<li>Better performance</li>
+							<li>Improves development speed</li>
+							<li>Apollo provides handy UI for everyone to use (I mean everyone - QA, devs, product, your non-technical friend)</li>
+						</ul>
+					</section>
+					<section id="graphql3">
+						<div>
+							<img src="./images/graphql_graphic.png">
+						</div>
+						<a>https://medium.com/@JeffLombardJr/when-and-why-to-use-graphql-24f6bce4839d</a>
+					</section>
+				</section>
+				<section id="apollo">
+					<section id="apollo1" class="r-vstack">
+						<h4>What is Apollo?</h4>
+						<ul>
+							<li>A cloud platform to help developers “build, query, manage, and scale a unified graph"
+							<li>It is "a data layer that enables applications to interact with data from any combination of connected data stores and external APIs.”</li>
+							</li>
+							<li>Acts as a source of truth to track your schema changes</li>
+							<li>Uses GraphQL to define/enforce this data flow</li>
+							<li>Provides a UI (Apollo Studio) that is accessible to non-backend devs</li>
+						</ul>
+					</section>
+					<section id="apollo2">
+						<div>
+							<img src="./images/apollo_graphic.png">
+						</div>
+						<a>https://www.apollographql.com/docs/intro/platform/</a>
+					</section>
+				</section>
+				<section id="apolloangular">
+					<h4>Using GraphQL With an Angular Frontend</h4>
+					<ul>
+						<li>Support for GraphQL projects with an Angular front end is growing</li>
+						<li>The library Apollo Angular is popular</li>
+						<li>Frontend developers can copy/past their queries from Apollo Studio directly into their code</li>
+					</ul>
+				</section>
+				<section id="demo">
+					<h4>Code demo</h4>
+					<p>
+						<span>Let's take a look at an exmaple application which displays a list of restaurants and addresses, as well as a form to add a restaurant to the database.</span>
+					</p>
+					<p>
+						<span>Server</span>
+						<a>https://github.com/nicoledgreene/nodejs-apollo-example</a>
+					</p>
+					<p>
+						<span>Client</span>
+						<a>https://github.com/nicoledgreene/apollo-angular-example</a>
+					</p>
+				</section>
+				<section id="thanks">
+					<h4>
+						Thank you!
+					</h4>
+					<p>
+						Connect with me on <a href="https://twitter.com/dev_penguin_">Twitter</a> or <a href="https://www.linkedin.com/in/nicolegilbertgreene/">LinkedIn</a>
+					</p>
+					<p>
+						Join the Bitovi  <a href="https://join.slack.com/t/bitovi-community/shared_invite/zt-1cunmic2q-Xe9jrWiDWACNUOVrUTBY4w">Slack community</a>
+					</p>
+				</section>
 			</div>
 		</div>
 

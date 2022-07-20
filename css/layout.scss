@@ -67,3 +67,58 @@
 .reveal .justify-start { justify-content: flex-start; }
 .reveal .justify-center { justify-content: center; }
 .reveal .justify-end { justify-content: flex-end; }
+
+// CUSTOM SECTIONS
+#title {
+	display: flex !important;
+	position: relative;
+	height: 100%;
+	align-items: center;
+	.logos {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		justify-content: center;
+		div {
+			width: 100px;
+			img {
+				width: 100% !important;
+			}
+		}
+		div:nth-of-type(2) {
+			padding: 0px 24px;
+		}
+	}
+	.signature {
+		position: absolute;
+		bottom: 5px;
+		font-size: 1.5rem;
+	}
+}
+
+#apollo1, #graphql1, #graphql2, #apolloangular, #demo, #thanks {
+	display: flex !important;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 48px;
+	height: 100%;
+	ul, p {
+		width: 75%;
+		font-size: 1.5rem;
+		li {
+			padding-bottom: 24px;
+		}
+	}
+}
+
+#apollo2, #graphql3 {
+	div {
+		border: 24px solid white;
+		background: white;
+		border-radius: 5px;
+	}
+	a {
+		font-size: 0.5rem
+	}
+}
